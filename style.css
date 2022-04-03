@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 10px;
+  background: black;
+}
+
+table {
+  border: 5px solid white;
+  border-collapse: collapse;
+  font-family: Poppins;
+  margin: 30px auto;
+  color: white;
+}
+
+td {
+  border: 2px solid white;
+  padding: 15px;
+  width: 200px;
+  font-size: 1.3em;
+}
+
+tr:nth-of-type(even) {
+  background: #f37ecf;
+}
+
+tr:nth-of-type(odd) {
+  background: #af5594;
+}
+
+th {
+  border: 2px solid white;
+  padding: 15px;
+  width: 200px;
+  font-size: 1.4em;
+  font-weight: 800;
+  background: #86006f;
+}
